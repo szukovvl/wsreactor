@@ -1,0 +1,12 @@
+spring:
+  output.ansi.enabled: ALWAYS
+
+  application:
+    name: Sockets & Reactor
+
+server:
+  port: ${LISTEN_PORT:3000} # 3000
+
+logging:
+  level:
+    root: INFO
